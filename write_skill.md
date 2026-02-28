@@ -1,7 +1,7 @@
 ---
 id: write_skill_v1
 name: Write Skill
-description: Document a reusable technique as a skill file using test-driven documentation — baseline failure first, write skill, verify compliance, close loopholes.
+description: Document a reusable technique as a reusable skill file — TDD for documentation: baseline failure first, then write skill, then verify an agent complies.
 slots: [task, context, requirements, constraints, acceptance_criteria]
 example_triggers:
   - write a skill
@@ -45,7 +45,7 @@ Create `skills/<skill-name>/SKILL.md` addressing those specific rationalizations
 ```
 ---
 name: skill-name-with-hyphens
-description: Use when [specific triggering conditions — NOT a workflow summary]
+description: Use when <specific triggering conditions — NOT a workflow summary>
 ---
 # Skill Name
 ## Overview
